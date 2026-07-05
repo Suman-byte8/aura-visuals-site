@@ -230,3 +230,19 @@
   margin-bottom: 32px;
 }
 
+/* Contact page — minimal underline inputs */
+.minimal-input {
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+  background: transparent;
+  border-radius: 0;
+  padding: 12px 0;
+  transition: border-color 0.3s ease;
+  box-shadow: none !important;
+}
+
+.minimal-input:focus {
+  outline: none;
+  border-bottom-color: #f5b335;
+}
+
