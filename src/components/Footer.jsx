@@ -1,0 +1,104 @@
+import React from "react";
+import FadeInSection from "./FadeInSection";
+
+const Footer = () => {
+  return (
+    <FadeInSection>
+      <footer className="w-full py-section-padding bg-surface border-t border-outline-variant">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-gutter px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+          {/* Brand */}
+          <div className="col-span-2 md:col-span-2 flex flex-col space-y-4">
+            <a className="flex items-center gap-4" href="#">
+              <img
+                alt="Aura Visuals"
+                className="h-8 w-8 object-contain"
+                src="https://lh3.googleusercontent.com/aida/AP1WRLuMkQ7OWq9gHgFDguDD9iTwPBegPsme-0NYCUUawVn0qIk55tXV_FF-MFbfoX4__t5AqgMnRYnB9fA-4b5VQdCytIZwzSU8i35g8UUAD4ONc6UjB5Gj6ZbQNiT2CAWQhBRxcBfOLBA4JSP6yzw-Z7lokNe7SM9rTURNCjCPYpLgRehhRfwOKHj5HXPKC2spRTA-zr16SQ-N5UoP2AVE8vYWUe-lfWs-UDh8612__dCi92JhDu-0sf6b0PU"
+              />
+              <span className="font-headline-sm text-headline-sm font-bold text-primary">
+                Aura Visuals
+              </span>
+            </a>
+            <p className="font-body-md text-body-md text-on-surface-variant mt-4 max-w-xs">
+              Elevating digital presence through premium minimal design and strategic innovation.
+            </p>
+            <p className="font-body-md text-body-md text-on-surface-variant mt-8">
+              © {new Date().getFullYear()} Aura Visuals. All rights reserved.
+            </p>
+          </div>
+          {/* Links */}
+          <div className="flex flex-col space-y-4">
+            <h4 className="font-label-caps text-label-caps tracking-widest uppercase text-primary mb-2">
+              Quick Links
+            </h4>
+            <a
+              className="font-body-md text-body-md text-on-surface-variant hover:text-secondary hover:underline transition-all"
+              href="#"
+            >
+              Home
+            </a>
+            <a
+              className="font-body-md text-body-md text-on-surface-variant hover:text-secondary hover:underline transition-all"
+              href="#"
+            >
+              About
+            </a>
+            <a
+              className="font-body-md text-body-md text-on-surface-variant hover:text-secondary hover:underline transition-all"
+              href="#"
+            >
+              Portfolio
+            </a>
+          </div>
+          <div className="flex flex-col space-y-4">
+            <h4 className="font-label-caps text-label-caps tracking-widest uppercase text-primary mb-2">
+              Services
+            </h4>
+            <a
+              className="font-body-md text-body-md text-on-surface-variant hover:text-secondary hover:underline transition-all"
+              href="#"
+            >
+              Design
+            </a>
+            <a
+              className="font-body-md text-body-md text-on-surface-variant hover:text-secondary hover:underline transition-all"
+              href="#"
+            >
+              Development
+            </a>
+            <a
+              className="font-body-md text-body-md text-on-surface-variant hover:text-secondary hover:underline transition-all"
+              href="#"
+            >
+              Marketing
+            </a>
+          </div>
+          <div className="flex flex-col space-y-4">
+            <h4 className="font-label-caps text-label-caps tracking-widest uppercase text-primary mb-2">
+              Connect
+            </h4>
+            <a
+              className="font-body-md text-body-md text-on-surface-variant hover:text-secondary hover:underline transition-all"
+              href="#"
+            >
+              Email
+            </a>
+            <a
+              className="font-body-md text-body-md text-on-surface-variant hover:text-secondary hover:underline transition-all"
+              href="#"
+            >
+              Socials
+            </a>
+            <a
+              className="font-body-md text-body-md text-on-surface-variant hover:text-secondary hover:underline transition-all"
+              href="#"
+            >
+              Resources
+            </a>
+          </div>
+        </div>
+      </footer>
+    </FadeInSection>
+  );
+};
+
+export default Footer;
