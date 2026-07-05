@@ -10,9 +10,9 @@ const Header = () => {
   const navItems = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
-    { name: "Services", href: "#" },
-    { name: "Portfolio", href: "#" },
-    { name: "Contact", href: "#" },
+    { name: "Services", href: "/services" },
+    { name: "Portfolio", href: "/portfolio" },
+    { name: "Contact", href: "/contact" },
   ];
 
   const getLinkClass = (href) => {
@@ -55,12 +55,12 @@ const Header = () => {
         </div>
         {/* Trailing Action */}
         <div className="hidden md:block">
-          <a
+          <Link
             className="inline-flex items-center justify-center px-6 py-3 bg-primary text-on-primary font-label-caps text-label-caps tracking-widest uppercase hover:bg-surface-tint transition-colors duration-300"
-            href="#"
+            href="/contact"
           >
             Get Started
-          </a>
+          </Link>
         </div>
         {/* Mobile Menu Toggle */}
         <button
@@ -87,13 +87,13 @@ const Header = () => {
               {item.name}
             </Link>
           ))}
-          <a
+          <Link
             className="inline-flex items-center justify-center px-6 py-3 mt-2 bg-primary text-on-primary font-label-caps text-label-caps tracking-widest uppercase hover:bg-surface-tint transition-colors duration-300 w-full"
-            href="#"
+            href="/contact"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Get Started
-          </a>
+          </Link>
         </div>
       )}
     </nav>

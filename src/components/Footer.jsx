@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import FadeInSection from "./FadeInSection";
 
 const Footer = () => {
@@ -6,9 +7,10 @@ const Footer = () => {
     <FadeInSection>
       <footer className="w-full py-section-padding bg-surface border-t border-outline-variant">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-gutter px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+
           {/* Brand */}
           <div className="col-span-2 md:col-span-2 flex flex-col space-y-4">
-            <a className="flex items-center gap-4" href="#">
+            <Link className="flex items-center gap-4" href="/">
               <img
                 alt="Aura Visuals"
                 className="h-8 w-8 object-contain"
@@ -17,68 +19,74 @@ const Footer = () => {
               <span className="font-headline-sm text-headline-sm font-bold text-primary">
                 Aura Visuals
               </span>
-            </a>
+            </Link>
             <p className="font-body-md text-body-md text-on-surface-variant mt-4 max-w-xs">
-              Elevating digital presence through premium minimal design and strategic innovation.
+              Elevating digital presence through premium minimal design and
+              strategic innovation.
             </p>
             <p className="font-body-md text-body-md text-on-surface-variant mt-8">
               © {new Date().getFullYear()} Aura Visuals. All rights reserved.
             </p>
           </div>
-          {/* Links */}
+
+          {/* Quick Links */}
           <div className="flex flex-col space-y-4">
             <h4 className="font-label-caps text-label-caps tracking-widest uppercase text-primary mb-2">
               Quick Links
             </h4>
-            <a
+            <Link
               className="font-body-md text-body-md text-on-surface-variant hover:text-secondary hover:underline transition-all"
-              href="#"
+              href="/"
             >
               Home
-            </a>
-            <a
+            </Link>
+            <Link
               className="font-body-md text-body-md text-on-surface-variant hover:text-secondary hover:underline transition-all"
-              href="#"
+              href="/about"
             >
               About
-            </a>
-            <a
+            </Link>
+            <Link
               className="font-body-md text-body-md text-on-surface-variant hover:text-secondary hover:underline transition-all"
-              href="#"
+              href="/portfolio"
             >
               Portfolio
-            </a>
+            </Link>
           </div>
+
+          {/* Services */}
           <div className="flex flex-col space-y-4">
             <h4 className="font-label-caps text-label-caps tracking-widest uppercase text-primary mb-2">
               Services
             </h4>
-            <a
+            <Link
               className="font-body-md text-body-md text-on-surface-variant hover:text-secondary hover:underline transition-all"
-              href="#"
+              href="/services"
             >
               Design
-            </a>
-            <a
+            </Link>
+            <Link
               className="font-body-md text-body-md text-on-surface-variant hover:text-secondary hover:underline transition-all"
-              href="#"
+              href="/services"
             >
               Development
-            </a>
-            <a
+            </Link>
+            <Link
               className="font-body-md text-body-md text-on-surface-variant hover:text-secondary hover:underline transition-all"
-              href="#"
+              href="/services"
             >
               Marketing
-            </a>
+            </Link>
           </div>
+
+          {/* Connect */}
           <div className="flex flex-col space-y-4">
             <h4 className="font-label-caps text-label-caps tracking-widest uppercase text-primary mb-2">
               Connect
             </h4>
             <a
               className="font-body-md text-body-md text-on-surface-variant hover:text-secondary hover:underline transition-all"
-              href="#"
+              href="mailto:av.visuals.design@gmail.com"
             >
               Email
             </a>
@@ -88,13 +96,14 @@ const Footer = () => {
             >
               Socials
             </a>
-            <a
+            <Link
               className="font-body-md text-body-md text-on-surface-variant hover:text-secondary hover:underline transition-all"
-              href="#"
+              href="/contact"
             >
-              Resources
-            </a>
+              Contact
+            </Link>
           </div>
+
         </div>
       </footer>
     </FadeInSection>
