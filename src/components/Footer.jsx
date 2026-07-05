@@ -10,21 +10,18 @@ const Footer = () => {
 
           {/* Brand */}
           <div className="col-span-2 md:col-span-2 flex flex-col space-y-4">
-            <Link className="flex items-center gap-4" href="/">
+            <Link href="/">
               <img
                 alt="Aura Visuals"
-                className="h-8 w-8 object-contain"
-                src="https://lh3.googleusercontent.com/aida/AP1WRLuMkQ7OWq9gHgFDguDD9iTwPBegPsme-0NYCUUawVn0qIk55tXV_FF-MFbfoX4__t5AqgMnRYnB9fA-4b5VQdCytIZwzSU8i35g8UUAD4ONc6UjB5Gj6ZbQNiT2CAWQhBRxcBfOLBA4JSP6yzw-Z7lokNe7SM9rTURNCjCPYpLgRehhRfwOKHj5HXPKC2spRTA-zr16SQ-N5UoP2AVE8vYWUe-lfWs-UDh8612__dCi92JhDu-0sf6b0PU"
+                className="h-24 w-auto object-contain grayscale brightness-0"
+                src="/aura-visuals-logo-horz.png"
               />
-              <span className="font-headline-sm text-headline-sm font-bold text-primary">
-                Aura Visuals
-              </span>
             </Link>
             <p className="font-body-md text-body-md text-on-surface-variant mt-4 max-w-xs">
               Elevating digital presence through premium minimal design and
               strategic innovation.
             </p>
-            <p className="font-body-md text-body-md text-on-surface-variant mt-8">
+            <p className="font-body-md text-body-md text-on-surface-variant mt-8" suppressHydrationWarning>
               © {new Date().getFullYear()} Aura Visuals. All rights reserved.
             </p>
           </div>

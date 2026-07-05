@@ -35,15 +35,12 @@ const Header = () => {
     <nav className="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant shadow-sm transition-all duration-300 h-20">
       <div className="flex justify-between items-center h-full px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
         {/* Brand Logo */}
-        <Link className="flex items-center gap-4" href="/">
+        <Link href="/">
           <img
             alt="Aura Visuals"
-            className="h-8 w-8 object-contain"
-            src="https://lh3.googleusercontent.com/aida/AP1WRLuMkQ7OWq9gHgFDguDD9iTwPBegPsme-0NYCUUawVn0qIk55tXV_FF-MFbfoX4__t5AqgMnRYnB9fA-4b5VQdCytIZwzSU8i35g8UUAD4ONc6UjB5Gj6ZbQNiT2CAWQhBRxcBfOLBA4JSP6yzw-Z7lokNe7SM9rTURNCjCPYpLgRehhRfwOKHj5HXPKC2spRTA-zr16SQ-N5UoP2AVE8vYWUe-lfWs-UDh8612__dCi92JhDu-0sf6b0PU"
+            className="h-18 w-auto object-contain grayscale brightness-0"
+            src="/aura-visuals-logo-horz.png"
           />
-          <span className="font-headline-sm text-headline-sm font-bold tracking-tight text-primary">
-            Aura Visuals
-          </span>
         </Link>
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
