@@ -18,7 +18,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <a
                 className="inline-flex items-center justify-center px-8 py-4 bg-primary text-on-primary font-label-caps text-label-caps tracking-widest uppercase hover:bg-surface-tint transition-colors duration-300 group"
-                href="#"
+                href="/contact"
               >
                 Let's Build Your Brand
                 <span className="material-symbols-outlined ml-2 group-hover:translate-x-1 transition-transform">
@@ -27,7 +27,7 @@ const Hero = () => {
               </a>
               <a
                 className="inline-flex items-center justify-center px-8 py-4 border border-primary text-primary font-label-caps text-label-caps tracking-widest uppercase hover:bg-surface-container-low transition-colors duration-300"
-                href="#"
+                href="/services"
               >
                 Explore Services
               </a>
@@ -38,7 +38,7 @@ const Hero = () => {
               <img
                 alt="Premium modern abstract illustration"
                 className="w-full h-full object-cover"
-                src="https://lh3.googleusercontent.com/aida/AP1WRLvJ-ApTuZQI5RkZORttVq3Oezp0NwkANd-fswt-XbtJDzIezjoO72I6ydWjb0MWJ4EGzOv242Q9dLVBmrwMBIwVEgSJYVpKVcrbthU3cDhgSXM2E-QP2ea6cgU0zd6FeHoQbFf3glYTiGM4YX47y3lawq5WNKFOjCzMus8Uzc-TbbB7-cDAuZm-ai654M6bb0xhuDz6Y992BD94-QgdhSIkR7mMkChQA8uGPicbLMl-7TZ73ZFvfazUe-s"
+                src="/home_side_image.png"
               />
               {/* Decorative Elements */}
               <div className="absolute -bottom-4 -left-4 w-24 h-24 border-l border-b border-secondary"></div>

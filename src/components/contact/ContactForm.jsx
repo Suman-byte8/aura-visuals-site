@@ -161,9 +161,9 @@ const ContactForm = () => {
                     Studio
                   </h4>
                   <p className="font-body-md text-body-md text-primary">
-                    New York, NY
+                    Malda, West Bengal — 732103
                     <br />
-                    Available Worldwide
+                    India
                   </p>
                 </div>
               </div>
@@ -178,14 +178,18 @@ const ContactForm = () => {
                 <a
                   aria-label="Instagram"
                   className="w-10 h-10 border border-primary flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-colors"
-                  href="#"
+                  href="https://www.instagram.com/aura.visualsofficial/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span className="material-symbols-outlined">photo_camera</span>
                 </a>
                 <a
                   aria-label="Facebook"
                   className="w-10 h-10 border border-primary flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-colors"
-                  href="#"
+                  href="https://www.facebook.com/profile.php?id=61589394205755"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span className="material-symbols-outlined">group</span>
                 </a>
